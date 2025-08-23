@@ -26,6 +26,11 @@ const JAPANESE_GROUPS = [
   { label: 'Y-line', chars: ['や', 'ゆ', 'よ'] },
   { label: 'R-line', chars: ['ら', 'り', 'る', 'れ', 'ろ'] },
   { label: 'W-line', chars: ['わ', 'を', 'ん'] },
+  { label: 'G-line', chars: ['が', 'ぎ', 'ぐ', 'げ', 'ご'] },
+  { label: 'Z-line', chars: ['ざ', 'じ', 'ず', 'ぜ', 'ぞ'] },
+  { label: 'D-line', chars: ['だ', 'ぢ', 'づ', 'で', 'ど'] },
+  { label: 'B-line', chars: ['ば', 'び', 'ぶ', 'べ', 'ぼ'] },
+  { label: 'P-line', chars: ['ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ'] },
 ];
 
 function groupWords(words: Word[]) {
